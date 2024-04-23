@@ -1,0 +1,202 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #ba3b46;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: auto;
+    padding-bottom: 60px;
+    color: white;
+    width: auto;
+}
+
+.headopcion{
+    position: absolute;
+    left: 82px;
+    margin-top: 55px;
+    font-size: 17px;
+}
+
+.headopciones{
+    margin-right: 20px;
+    color: white;
+}
+
+.botones{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.telefono{
+    text-shadow: 1px 1px 2px black;
+}
+
+.tasar{
+    background-color: #325798;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px black;
+}
+
+#cotizacion{
+    color: white;
+    font-size: 17px;
+    padding: 20px;
+    background-color: #ba3b46;
+    border-style: solid;
+    border-color: white;
+}
+
+.minieslogan{
+    margin: 0;
+    margin-left: 23%;
+    color: white;
+    left: 19%;
+    top: 7%;
+    transform: translate(-50%,50%);
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.eslogan{
+    position: absolute;
+    color: white;
+    margin-bottom: 0;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%,50%);
+    font-size: 450%;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.opcionesnav{
+    position: absolute;
+    display: flex;
+    margin-top: 250px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.opciones{
+    margin: 5px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(82, 82, 82);
+    font-size: 80%;
+    box-shadow: 1px 1px 2px black;
+}
+
+.zona{
+    position: absolute;
+    padding-left: 10px;
+    top: 500px;
+    left: 15%;
+    width: 30%;
+    height: 8%;
+    border-style: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+    font-size: 120%;
+}
+
+select{
+    position: absolute;
+    font-size: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 1px 1px 2px black;
+}
+
+.selpropiedad{
+    left: 48%;
+    top: 500px;
+}
+
+.num{
+    left: 64%;
+    top: 500px;
+}
+
+.buscar{
+    position: absolute;
+    top: 500px;
+    left: 75%;
+    background-color: #325798;
+    color: white;
+    padding: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.registro{
+    text-align: center;
+    font-size: 150%;
+}
+
+.contenedores{
+    display: flex;
+}
+
+.container{
+    margin: 0 auto;
+    width: 30%;
+    background-color: hsl(215, 100%, 95%);
+    border-radius: 25px;
+}
+
+.imagenesDiv{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.conboton{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    background-color: #325798;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+}
+
+.emprendimientos{
+    display: flex;
+    background-color: hsl(215, 100%, 95%);
+    margin-left: 20px;
+    width: 97%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    color: white;
+    background-color: #414141;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,23 @@
+input{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.casa{
+    position: absolute;
+    right: 0%;
+    top: 105px;
+}
+
+.subir{
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #325798;
+    color: white;
+}
