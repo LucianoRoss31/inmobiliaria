@@ -76,9 +76,9 @@ header{
     color: white;
     margin-bottom: 0;
     left: 50%;
-    top: 8%;
+    top: 3%;
     transform: translate(-50%,50%);
-    font-size: 450%;
+    font-size: 400%;
     text-shadow: 1px 1px 2px black;
     text-align: center;
 }
@@ -98,28 +98,29 @@ header{
     padding-right: 50px;
     border-style: none;
     border-radius: 10px;
-    color: rgb(82, 82, 82);
+    color: #525252;
+    background-color: white;
     font-size: 80%;
     box-shadow: 1px 1px 2px black;
 }
 
 .zona{
     position: absolute;
+    padding: 10px;
     padding-left: 10px;
-    top: 500px;
+    top: 530px;
     left: 15%;
     width: 30%;
-    height: 8%;
     border-style: none;
     border-radius: 15px;
     box-shadow: 1px 1px 2px black;
-    font-size: 120%;
+    font-size: 90%;
 }
 
 select{
     position: absolute;
-    font-size: 100%;
-    padding: 15px;
+    font-size: 90%;
+    padding: 10px;
     border-radius: 15px;
     border-style: none;
     box-shadow: 1px 1px 2px black;
@@ -127,26 +128,26 @@ select{
 
 .selpropiedad{
     left: 48%;
-    top: 500px;
+    top: 530px;
 }
 
 .num{
     left: 64%;
-    top: 500px;
+    top: 530px;
 }
 
 .buscar{
     position: absolute;
-    top: 500px;
+    top: 530px;
     left: 75%;
     background-color: #325798;
     color: white;
-    padding: 15px;
+    padding: 10px;
     padding-left: 3%;
     padding-right: 3%;
     border-radius: 10px;
     border-style: none;
-    font-size: 17px;
+    font-size: 12px;
     box-shadow: 1px 1px 2px black;
 }
 
@@ -162,7 +163,7 @@ select{
 .container{
     margin: 0 auto;
     width: 30%;
-    background-color: hsl(215, 100%, 95%);
+    background-color: #e5f0ff;
     border-radius: 25px;
 }
 
@@ -185,7 +186,7 @@ select{
 
 .emprendimientos{
     display: flex;
-    background-color: hsl(215, 100%, 95%);
+    background-color: #e5f0ff;
     margin-left: 20px;
     width: 97%;
     margin-top: 40px;

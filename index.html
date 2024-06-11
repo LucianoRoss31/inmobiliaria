@@ -6,6 +6,7 @@
     <title>Inmobiliaria Horizonte</title>
     <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="jquery-ui-1.13.3.custom/external/jquery/jquery.js"></script>
 </head>
 <body>
     <header>
@@ -26,10 +27,10 @@
     <nav>
         <h2 class="eslogan">Un hogar a tu alcance</h2>
         <div class="opcionesnav">
-            <button class="opciones"><b>Comprar</b></button>
-            <button class="opciones"><b>Alquilar</b></button>
-            <button class="opciones"><b>Emprendimientos inmobiliarios</b></button>
-            <button class="opciones"><b>Inversiones a tu medida</b></button>
+            <button class="opciones" id="opciones"><b>Comprar</b></button>
+            <button class="opciones" id="opciones"><b>Alquilar</b></button>
+            <button class="opciones" id="opciones"><b>Emprendimientos inmobiliarios</b></button>
+            <button class="opciones" id="opciones"><b>Inversiones a tu medida</b></button>
         </div>
         <form>
             <select class="zona">
@@ -192,5 +193,14 @@
             <p>Av.Juan Bautista Justo 599, Ciudad de Buenos Aires</p>
         </div>
     </footer>
+    <script>
+        $(document).ready(function(){
+            $(".opciones").click(function(){
+                $(".opciones").css({backgroundColor:'white',color:'#525252'})
+                $(this).css({backgroundColor:'#325798',color:'white'})
+                $("#cotizacion").css({backgroundColor:'#ba3b46'})
+            });
+        });
+    </script>
 </body>
 </html>
