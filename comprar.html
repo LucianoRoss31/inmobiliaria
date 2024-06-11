@@ -30,7 +30,7 @@
             <p align="center" width="100%">
                 Conde, Colegiales
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Conde, Colegiales\nPrecio: 30.000$ USD\nDescripción: Casa de 2 dormitorios con jardín trasero y garage.')"><b>Más información</b></button>
         </div>
         <div class="container">
             <img class="imagenesDiv" src="imagenes/casa1.jpg" alt="casa1" width="100%" height="350px">
@@ -38,7 +38,7 @@
             <p align="center" width="100%">
                 Jose Cubas, Villa Devoto
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Jose Cubas, Villa Devoto\nPrecio: 45.500$ USD\nDescripción: Casa de 2 dormitorios en el centro del barrio. Cuenta con garage')"><b>Más información</b></button>
         </div>
         <div class="container">
             <img class="imagenesDiv" src="imagenes/casa2.webp" alt="casa1" width="100%" height="350px">
@@ -46,7 +46,7 @@
             <p align="center" width="100%">
                 Av. Corrientes, Balvanera
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Av. Corrientes, Balvanera\nPrecio: 10.347$ USD\nDescripción: Estudio moderno ideal para estudiantes o profesionales')"><b>Más información</b></button>
         </div>
     </section>
     <section class="contenedores" style="margin-top: 50px;">
@@ -56,7 +56,7 @@
             <p align="center" width="100%">
                 Florida, Microcentro
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Florida, Microcentro\nPrecio: 702.194$ USD\nDescripción: Lujosa residencia en el corazón de la ciudad.')"><b>Más información</b></button>
         </div>
         <div class="container">
             <img class="imagenesDiv" src="imagenes/casa6.jpg" alt="casa1" width="100%" height="350px">
@@ -64,7 +64,7 @@
             <p align="center" width="100%">
                 Av. Santa Fe, Recoleta
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Av. Santa Fe, Recoleta\nPrecio: 25.000$ USD\nDescripción:  Una fachada blanca simple y elegante que refleja la historia y la tradición, ideal para oficinas, galerías o centros culturales.')"><b>Más información</b></button>
         </div>
         <div class="container">
             <img class="imagenesDiv" src="imagenes/casa4.jpg" alt="casa1" width="100%" height="350px">
@@ -72,7 +72,7 @@
             <p align="center" width="100%">
                 Lavalle, San Nicolás
             </p>
-            <button class="conboton"><b>Más información</b></button>
+            <button class="conboton" onclick="MasInfo('Lavalle, San Nicolás\nPrecio: 60.500$ USD\nDescripción: Amplia casa familiar con 2 habitaciones cerca del centro')"><b>Más información</b></button>
         </div>
     </section>
     <footer style="bottom: 0%;">
@@ -110,5 +110,10 @@
             <p>Av.Juan Bautista Justo 599, Ciudad de Buenos Aires</p>
         </div>
     </footer>
+    <script>
+        function MasInfo(info) {
+            alert(info);
+        }
+    </script>
 </body>
 </html>
